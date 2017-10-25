@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ClientConfiguration xmlns="urn:orleans">
+  <Gateway Address="localhost" Port="30000"/>
+  <Tracing DefaultTraceLevel="Info"
+           TraceToConsole="true"
+           TraceToFile="D:\TestPrjs\OrleansTest1\OrleansTest1.WebApi1\WebApiClient-{0}-{1}.log"
+           WriteTraces="false"/>
+</ClientConfiguration>
